@@ -117,14 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-печать-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-печать-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-печать-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-печать-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-печать-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-печать-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAZtJREFUSEvdVMsuBEEU7YQF9h6RSVhIprsxm/kAWyGW/gB78Ziq2fRmGBs7Yaqb
+        SDzDTyAWHvEBJJZ+wZBIcG+5o7unbj+2nOQkXXXrnOq691ZZ/wtjgex3A7HgKHnk+vIKqb9hrrS91EfL
+        8qOwudgNBhtg1AR+JbDp+KI+tO91kSwd7tbygOPLe8aIpaPEHZ6M5Dxwd1zIGaRSyYey8nrIxgQdnxdn
+        UYk1solDFyo9p6mEfL+O7MlesguBleYEyRSn8DMlNGzN2aoyR3YhYMFxXJhMSNmJdT7bYavqNOT38zem
+        xCHZhYAA9qlhYlCJswnP63QbYhK+36Ix2PCC7ELA0S5ji3x5bQeiDOLHiFD/qROIKRi/t+YjcdPYTIV4
+        GfdXC8XdlUE47lOWqSabCqZ4sNkzmutqZ5kC2eLh3Yeg0W5oXtypDI82qjMwTjTF7mDbDQHBeoLog5tv
+        Y41sTOCVhgW3bYJswpXGh4tseNANzG+uxE3uJ1Q/Rr5cx7yxZkCK1XI/m1FgMUA8j2300+e61w+w+omF
+        +qOwrG+M2DMDPgP0bgAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>

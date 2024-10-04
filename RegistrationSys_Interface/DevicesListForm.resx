@@ -117,14 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-печать-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-печать-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="kGSH_Avtocam_RegistrDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="kGSHAvtocamRegistrDataSetBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>234, 17</value>
+  </metadata>
+  <metadata name="devicesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>518, 17</value>
+  </metadata>
+  <metadata name="devicesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>688, 17</value>
+  </metadata>
+  <metadata name="devicesBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>850, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDell.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAdlJREFUSEudlD0vBEEcxo8gofPS8A2cyO3uhFx3KIgvQEWtIQT1FRTCJ0DjXmZW
+        VoFrHHZ2iQTF4ei9xWdQn/9zu+EumB2eZJLfPDv/J/+ZyWwsSpYUB5bkz6YnHjGqLMV++Pl/6r/g7ZbH
+        78Pppyj4Ad/CabSomz3LE6Wvwcumx9/rPVEKPF6u93k2jPkuVii00dbf0M1fBmpQG8b8LJxjyvebwHHH
+        aTFdMQO2/FySuXwQDI+VNpvBWIsasFKm5NfsPNcNZj7vwjYDXyxggOHhW9U/ET3kX4GVoqKCIXcTYJ3g
+        hJ836HwPwUpR8TaT9ihYJ5hCx+gyt8BK0UWsmtKeAusEG5JPU/gKWCnmiTlL2ktV1ulY8mXyZ8FKmZ49
+        Sbe8DtYJpmPYoF1OgJVivj1EhZmAtc44a3g8BVbKcHNxCiiCNTs+Ns/sXrBSA6eZTtraHViz43Ky6HSA
+        1apUGqjwBajZ8StqwJGqBqfTjZHBaIJ+o/C0RM/6FkcSFYxBHd/A0xIFFHGJUcEJKfqo4yN4WqLCDHPz
+        w1HBdMkjtLsdeFrCA8FDSV46rVS8Bs9w7XEMMDx8q31MWqJnvWi5Yj6c/iqswdpwGq3g7MQTfuCqgTVY
+        G5bVKBb7AFR8vuNw9N/WAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="icons8-печать-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-печать-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAcxJREFUSEu91c8vw1AAB/BJHLj7B/gDRFcLEtssODhwxUH8D35ERCISVyeJi9DF
+        j9fJOEgmLry+rn5tF1k4CBKXSVyw1dYWiz2v6xObbbQrvsn31LxPX1/b9xz/luY90NCEQJfZsgi0tx4H
+        a+nw8nHC9TEnBAlGAElGCMhm6oT8I2mc3KSOMiWCcRUDQdIp8NhqGchnyISmqFQcL/LXMAIvlxpspgRf
+        pFRx7OJkOU+7wku7brQy7kWomrJGbOJa/+F86vh8CE+czKZ9EuenrJGKcRjQeo+21R4JaPGLPpy57sQe
+        5H/S3yGlK8QhmXEklJKVe4zuLrP6DcLnw7gDcbeUNVIBrg1EQ2mZwJr2mCu4iWVdEGSahRUvZY1YwvNm
+        /AFfJeK4U9qSWZHvpuRnTONWYT2mcAjUwehOwVLocJu48cIKPEep4vyEk7/wzSMFX5Jf4HYxqOau2/mJ
+        XMK6PHCw8Dp5htKK+pCD3eKmSpYpq1+3hbcIa8/KVTcei8wpI7F9JR/WawvvELnnmei06hOXFfIUBbBe
+        WzgLQYq80AIwv3+6cX2L29vPwSvBy+/nesi3OkrW0uJJBEycRDSN4dX6UmdluZo+Q38/Dsc71WKj62n/
+        w2gAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="icons8-печать-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-печать-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAbtJREFUSEu1VctKw0AUzQeof+Bj7cYmFRcu1W1XPtaKUn+jKuo/2EqtdqZQ0EUX
+        biQJYtGNCor6D76oFXyAQrxnOrETHCap6IEDw+Tcw8yde28sE0b2d3ocl8/YLl9yPLZJ6wLWaZdNj9YL
+        3VKWHLZb7iejbeK74/FAT/GtlD6o9skwMyggazaMkm7wlvbZggzXw/b4ui44CW2PrUmbKGyXzekCwPGj
+        3SBzUhMco7VOA5L5orRrYcivDJiuf/F0H4Q4bdxqNaBIi5pzMqWH0ovBy2bb+Lxxp9WEpJtvCVOUTdxj
+        dWIML1GKqEm9oM3OjHmQ8vkU0rCibuJxrpoPwc3z4zdfPz+kbRC80Fr9Bi0eV/VAE1noJnUzc1yTFsmB
+        alE9yDhPZcbz6uafGHtsA02xrG7iWtfKVUFTKqCdqO9FjV2W+5fHoxNPWoN+tQuFrROE/FW5AShqvajF
+        zhqEF4UpgDFpOrXa0mcxLT18WOmVti04fnlWJwaTDiFKQ1baRYHRpw+IJ512VdrogaEd95gqoU155XkZ
+        bgZGHwWVTMMJhsTij5wmAcoGAwUFL1pf/ExZDnsoUynTwLK+AKnbN5W5Avb0AAAAAElFTkSuQmCC
+</value>
   </data>
+  <metadata name="devicesBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>850, 17</value>
+  </metadata>
 </root>
