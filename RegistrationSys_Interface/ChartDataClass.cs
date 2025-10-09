@@ -43,7 +43,7 @@ namespace RegistrationSys_Interface
                         chartData.DataValue = Convert.ToDouble(dr["value"]);
                         chartDataList.Add(chartData);
                     }
-                    dr.Close(); return chartDataList;
+                    dr.Close(); return chartDataList; 
                // }
                 //else
                 //{

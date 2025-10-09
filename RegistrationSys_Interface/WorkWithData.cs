@@ -34,8 +34,8 @@ namespace RegistrationSys_Interface
                 MessageBox.Show("Ошибка выборки данных!  " + ex.Message);
                 return null;
             }
-
         }
+
         public static DataTable GetDataTable_1(string _cmdText)
         {
             try
@@ -78,6 +78,7 @@ namespace RegistrationSys_Interface
                 command.ExecuteNonQuery();
             }
         }
+
         /// <summary>
         /// добавление/редактирование com
         /// </summary>

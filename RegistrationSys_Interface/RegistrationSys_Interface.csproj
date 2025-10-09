@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=24.10.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Cells.24.10.0\lib\net40\Aspose.Cells.dll</HintPath>
+    </Reference>
     <Reference Include="ScottPlot, Version=4.1.63.0, Culture=neutral, PublicKeyToken=86698dc10387c39e, processorArchitecture=MSIL">
       <HintPath>..\packages\ScottPlot.4.1.63\lib\net462\ScottPlot.dll</HintPath>
     </Reference>

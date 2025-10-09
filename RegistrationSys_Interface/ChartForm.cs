@@ -18,6 +18,8 @@ using static ScottPlot.Plottable.PopulationPlot;
 using System.Web.UI.WebControls;
 using System.Xml.Linq;
 using Excel = Microsoft.Office.Interop.Excel;
+using Microsoft.Office.Interop.Excel;
+using Aspose.Cells;
 namespace RegistrationSys_Interface
 {
     public partial class ChartForm : Form
@@ -269,7 +271,7 @@ namespace RegistrationSys_Interface
 
                 // получаем данные для следующего графика
 
-                DataTable idr = workWithData.GetDataTable("Select name_device, iswork From tDevices where number_device = " + id.ToString());
+                System.Data.DataTable idr = workWithData.GetDataTable("Select name_device, iswork From tDevices where number_device = " + id.ToString());
 
                 if (Convert.ToBoolean(idr.Rows[0][1]) == false) continue;//если пресс отключен переходим на следующий
                 name = idr.Rows[0][0].ToString();
@@ -298,11 +300,9 @@ namespace RegistrationSys_Interface
                     find = false;
                     break;
                 }
-               
 
                 // получаем данные для следующего графика
-
-                DataTable idr = workWithData.GetDataTable("Select name_device, iswork From tDevices where number_device = " + id.ToString());
+                System.Data.DataTable idr = workWithData.GetDataTable("Select name_device, iswork From tDevices where number_device = " + id.ToString());
 
                 if (Convert.ToBoolean(idr.Rows[0][1]) == false) continue;//если пресс отключен переходим на следующий
                 name = idr.Rows[0][0].ToString();
@@ -311,7 +311,6 @@ namespace RegistrationSys_Interface
                 {
                     continue;
                 }
-                
                 find = false;
               //  await CreateGridView(id, dat1, dat2);
             }
@@ -337,9 +336,18 @@ namespace RegistrationSys_Interface
             for (int i = 0; i < dataX.Length; i++)
             {
                 //FromOADate(t_n)
-                sheet.Cells[i, 1].Value = DateTime.FromOADate(dataX[i-1]).ToString("HH:mm:ss");
-                sheet.Cells[i, 2].Value= string.Format("{0:0.00}", dataY[i-1]);
+                sheet.Cells[i+1, 1].Value = DateTime.FromOADate(dataX[i]).ToString("HH:mm:ss");
+                sheet.Cells[i+1, 2].Value= string.Format("{0:0.00}", dataY[i]);
             }
+
+            // Добавьте диаграмму на рабочий лист
+            //0здсздсздсplc int chartIndex = sheet.ChartObjects(). .Add(Aspose.Cells.Charts .ChartType.Line, 5, 0, 15, 5);
+
+           // Доступ к экземпляру недавно добавленной диаграммы
+           //  Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
+
+           // Установите источник данных диаграммы как диапазон «A1: C4».
+           //chart.SetChartDataRange("A1:C4", true);
             ex.Visible = true;
 
         }
